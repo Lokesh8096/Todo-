@@ -1,0 +1,42 @@
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .todos-list {
+    padding-left: 0px;
+  }
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  .loading-text {
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+  }
+  .delete-btn {
+    background-color: white;
+    color: orangered;
+    font-family: 'Roboto';
+    font-size: 12px;
+    border-radius: 8px;
+    border: 1px solid orangered;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    margin-left: 16px;
+    outline: none;
+    cursor: pointer;
+  }
+  .title {
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 16px;
+  }

@@ -1,0 +1,55 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  min-height: 100vh;
+}
+
+.add-todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.btn-add-todo {
+    margin-left: 20px;
+    padding: 10px;
+    background-color:lightgreen;
+    font-weight: bold;
+    color: black;
+    border: 0.5px dotted black;
+  }
+
+.input-add-todo {
+    padding: 10px;
+    width: 200px;
+  }
+
+.heading {
+    color: #ff8542;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 16px;
+  }
+
+.simple-todos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 90%;
+    padding: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    max-width: 1110px;
+  }
+
+.hr-tag{
+  border: 2px solid black;
+  width: 100%;
+  margin-top: 20px;
+}
