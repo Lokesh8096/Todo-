@@ -8,7 +8,7 @@ const TodoItem = ({ isTodoAdded, setIsTodoAdded }) => {
   // Fetch todos from the backend using async/await
   const fetchTodos = async () => {
     try {
-      const response = await fetch("http://localhost:4000/todos");
+      const response = await fetch("https://backend-lywh.onrender.com/todos");
       const data = await response.json();
       setTodos(data);
     } catch (error) {
@@ -25,7 +25,7 @@ const TodoItem = ({ isTodoAdded, setIsTodoAdded }) => {
   // Delete Todo Function
   const deleteTodo = async (id) => {
     try {
-      const response = await fetch(`http://localhost:4000/todos/${id}`, {
+      const response = await fetch(`https://backend-lywh.onrender.com/todos/${id}`, {
         method: "DELETE",
       });
 
